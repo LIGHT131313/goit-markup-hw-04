@@ -243,7 +243,7 @@ body {
     margin-right: 24px;
 }
 
-.features-icon-wrap{
+.features-icon-wrap {
     height: 112px;
     margin-bottom: 8px;
 
@@ -361,12 +361,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--color-cloud);
+    color: var(--color-cloud);
 }
 
 .team-sn-link:hover,
 .team-sn-link:focus {
     background-color: var(--color-ocean)
+}
+
+.team-sn-icon {
+    fill: currentColor;
 }
 
 /*----------Customers----------*/
@@ -383,16 +387,18 @@ body {
 
 .customers-item {
     width: calc((100% - 120px) / 6);
+    height: 88px;
 }
 
 .customers-link {
-    height: 88px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;    
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
-    fill: var(--color-light-slate);
+    color: var(--color-light-slate);
 }
 
 .customers-link:hover,
@@ -401,7 +407,11 @@ body {
 } 
 .customers-link:hover .customers-icon, 
 .customers-link:focus .customers-icon {
-    fill: var(--color-ocean)
+    color: var(--color-ocean)
+}
+
+.customers-icon {
+    fill: currentColor;
 }
 
 /*----------Portfolio----------*/
@@ -520,10 +530,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--color-cloud);
+    color: var(--color-cloud);
 }
 
 .footer-sn-link:hover,
 .footer-sn-link:focus {
     background-color: var(--color-green)
+}
+
+.footer-sn-icon {
+    fill: currentColor;
 }
